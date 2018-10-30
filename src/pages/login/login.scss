@@ -65,12 +65,32 @@ body{
     font-size: 18px;
     border-radius: 20px;
   }
+
+  .loginbox input[type="register"]
+  {
+    border: none;
+    outline: none;
+    height: 40px;
+    background:#015024;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+  }
+
   .loginbox input[type="submit"]:hover
   {
     cursor: pointer;
     background: #ffc107;
     color: #000;
   }
+
+  .loginbox input[type="register"]:hover
+  {
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+  }
+
   .loginbox a{
     text-decoration: none;
     font-size: 12px;
@@ -82,3 +102,21 @@ body{
   {
     color: #ffc107;
   }
+
+  .button {
+    background-color: rgb(35, 40, 102);
+    border: none;
+    outline: none;
+    color: white;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    
+    font-size: 16px;
+   
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+

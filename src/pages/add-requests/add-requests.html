@@ -1,0 +1,10 @@
+<div class="loginbox">
+  <h1>Add Requests</h1>
+  <form (submit)="addItem()">
+    <p>Request Type</p>
+    <input [(ngModel)]="type" name="type" type="text" placeholder="Type" required>
+    <p>Description</p>
+    <input [(ngModel)]="description" name="description" type="text" placeholder="Description" required>
+    <input type="submit" value="Add">
+  </form>
+</div>

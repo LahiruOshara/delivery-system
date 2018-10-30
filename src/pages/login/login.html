@@ -1,0 +1,11 @@
+<div class="loginbox">
+  <img src="../../assets/imgs/avatar.png" class="avatar">
+    <h1>Login Here</h1>
+    <form (submit)="onLoginSubmit()">
+      <p>E-mail</p>
+      <input [(ngModel)]="f_email" name="email" type="text" placeholder="something@something.com" required>
+      <p>Password</p>
+      <input [(ngModel)]="f_password" name="password" type="password" placeholder="Password"  required>
+      <input type="submit"  value="Login">  
+    </form>
+</div>
